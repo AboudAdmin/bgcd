@@ -21,10 +21,14 @@ function PGCD() {
   let num2 = Math.abs(b);
   const result = pgcdcalcule(num1, num2);
 
+
   return (
     <div>
+      <h1>calcule PGCD</h1>
       <form>
+
         <div class="mb-3">
+
           <label for="num1" class="form-label">num 1</label>
           <input type="number" class="form-control" id="num1" aria-describedby="emailHelp"
           onChange={(e)=>setA(e.target.value)}/>
